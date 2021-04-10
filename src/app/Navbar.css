@@ -1,0 +1,21 @@
+nav > ul {
+    list-style: none;
+    padding: 2em 3em;
+    margin: 0;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul li {
+    margin: 0 1em;
+}
+
+nav > ul li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav > ul li > a.active {
+    color: #774abc;
+}
